@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Age checker</h1>
+            <p>Check what you can do at your age</p>
+        </div>
+        <div class="card" id="form-section">
+            <h2> please input name and age</h2>
+            <lable for="name">Name</lable>
+            <input type="text" id="name" name="name" placeholder="eg Manny" required>
+            <lable for="age">Age</lable>
+            <input type="number" id="age" name="age" placeholder="eg 18" min="1" max="99" required>
+            <button class="btn" onclick="saveuser()">Check</button>
+        </div>
+        <div id="results">
+
+            <div class="card">
+                <h2> your results</h2>
+                <div id="greeting"></div>
+                <div id="age-info"></div>
+                <div id="content-section"></div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>motivation</h2>
+            <div id="motivation"></div>
+        </div>
+        <button class="btn" onclick="clearResults()">Clear results</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
