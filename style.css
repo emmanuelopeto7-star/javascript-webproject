@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 40px 16px;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #305873;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Card */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  color: #305873;
+  margin-bottom: 16px;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #305873;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #305873;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0D2C49;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #305873;
+  border: 1px solid #305873;
+  margin-top: 10px;
+}
+
+.btn-outline:hover {
+  background-color: #305873;
+  color: white;
+}
+
+/* Results */
+#results {
+  display: none;
+}
+
+#greeting {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #305873;
+  margin-bottom: 8px;
+}
+
+#age-info {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+#content-section {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Quotes */
+#quotes-container p {
+  padding: 8px 12px;
+  border-left: 3px solid #305873;
+  margin-bottom: 10px;
+  color: #555;
+  font-style: italic;
+}
